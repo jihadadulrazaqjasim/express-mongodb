@@ -3,4 +3,5 @@
 ## By: Maximilian Schwarzmüller
 
 ## mvc-express
-Sending requests from backend to frontend,and rendering on views, using pub templating engine, dynamic routing (query params and route params), working with advance model (add, delete, view, get all products from file, add products to card, delete/decrement quantity..etc)
+* SQL (writing raw queries)
+* Sequelize (setup model classes, seting up associations (relationships, undertstood the mixin methods provided by Sequelize as a result of associations)
