@@ -1,5 +1,5 @@
 {
-  "name": "mvc-express-db",
+  "name": "mvc-express-mongodb",
   "version": "1.0.0",
   "description": "Sending requests from backend to frontend,and rendering on views, using pub templating engine, dynamic routing, working with advance model",
   "main": "index.js",
@@ -33,5 +33,13 @@
     "MVC",
     "Model",
     "Controller"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jihadadulrazaqjasim/express-mongodb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jihadadulrazaqjasim/express-mongodb/issues"
+  },
+  "homepage": "https://github.com/jihadadulrazaqjasim/express-mongodb#readme"
 }

@@ -17,16 +17,13 @@ app.set('view engine', 'ejs')
 // parse body
 app.use(bodyParser.urlencoded({extended: false}))
 
+
 // serve static content from public folder
 app.use(express.static(path.join(__dirname, 'public')))
 
 // middleware to store user in req:
 app.use((req, res, next) => {
-    User.findAll({order: Sequelize.literal('rand()'), limit: 1})
-        .then(users => {
-            req.user = users[0]
-            next()
-        }).catch()
+
 })
 
 // Routes
