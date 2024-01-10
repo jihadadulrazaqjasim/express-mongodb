@@ -2,4 +2,4 @@
 
 ## By: Maximilian Schwarzmüller
 
-## mvc-express-sql-sequelize
+## express-mongodb
